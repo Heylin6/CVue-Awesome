@@ -1,5 +1,5 @@
 const introInfo = {
-    name: 'Emre COŞKUNÇAY',
+    name: '劉耀奎(Heylin Liu)',
     title: 'Full Stack Developer',
     location: 'Ankara, Turkey',
     description: '<strong>Turpis, sit amet iaculis dui consectetur at.</strong> Cras sagittis molestie orci. <strong>Suspendisse ut laoreet mi</strong>. Phasellus eu tortor vehicula, blandit enim eu, auctor massa. Nulla ultricies tortor dolor, sit amet suscipit enim <strong>condimentum id</strong>. Etiam eget iaculis tellus. Varius sit amet.',
@@ -10,15 +10,15 @@ const introInfo = {
 const socialMediaInfo = [{
         name: 'linkedin',
         link: 'https://www.linkedin.com/in/coskuncayemre/',
-        username: 'coskuncayemre',
-        displayName: 'linkedin/coskuncayemre'
+        username: 'heylin6',
+        displayName: 'linkedin/heylin6'
     },
 
     {
         name: 'github',
-        link: 'https://github.com/coskuncayemre',
-        username: 'coskuncayemre',
-        displayName: 'github/coskuncayemre'
+        link: 'https://github.com/heylin6',
+        username: 'heylin6',
+        displayName: 'github/heylin6'
     },
     // {
     //     name: 'globe',
@@ -210,11 +210,11 @@ const projectInfo = [{
 const skillInfo = [
     {
         name: 'Javascript',
-        rate: 90,
+        rate: 80,
     },
     {
-        name: '.NET Core',
-        rate: 65,
+        name: 'Java',
+        rate: 80,
     },{
         name: 'Flutter',
         rate: 78,
