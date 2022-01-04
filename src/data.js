@@ -104,26 +104,19 @@ const experinceInfo = [
 
 const educationInfo = [
     {
-        school: 'Hacettepe University',
-        location: 'Ankara,Turkey',
-        title: 'MSc in Data Engineering',
-        duration: '2021 – Current',
-        description: '',
+        school: '資訊工業策進會',
+        location: '高雄',
+        title: '',
+        duration: '2015.6 – 2015.12',
+        description: '83期行動應用開發程式班',
     },
     {
-        school: 'Hacettepe University',
-        location: 'Ankara,Turkey',
-        title: 'BSc in Computer Science',
-        duration: '2015 – 2020',
-        description: '<b>GPA:</b> 3.38/4.00',
-    },
-    {
-        school: 'The English Studio Language School',
-        location: 'London,UK',
-        title: 'Student',
-        duration: 'Aug 2018 – Oct 2018',
+        school: '中原大學',
+        location: '',
+        title: '工業工程與系統管理學系',
+        duration: '2008.8 – 2013.6',
         description: '',
-    },
+    }
 ]
 
 const volunteerInfo = [
@@ -239,29 +232,17 @@ const otherSkillInfo = ['Kubernetes','Nginx','Git','WebGL','MVC','Bootstrap','Ji
 const proSkillInfo = ['Leadership','Effective communication','Team player','Strong problem solver',]
 
 // 0,1,2,3,4,5
-const languageInfo = [{
-        name: 'Turkish',
-        rate: 5,
-        level: 'Native',
-    },
+const languageInfo = [
     {
         name: 'English',
         rate: 4,
         level: 'Int',
-    },
-    {
-        name: 'German',
-        rate: 1,
-        level: 'Ele',
     }
 ]
 
 
 
-const interestInfo = [{
-        name: 'Traveler',
-        description: "22 Countries,for now",
-    },
+const interestInfo = [
     {
         name: 'Swimming',
         description: "",

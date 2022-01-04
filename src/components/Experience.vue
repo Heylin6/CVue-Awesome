@@ -8,11 +8,14 @@
             <p class="h6">{{exp.workAt}}</p>
             <span style="font-style: italic;">{{exp.duration}}</span>
             <p v-if="exp.description != null && exp.description != undefined" class="mt-2" v-html="exp.description"></p>
+            #123
             <div v-if="exp.techs.length > 0">
                 <span class="bold">Technologies used:</span>
                 <ul class="tech-list pt-2">
                     <li class="tech-list-item" v-for="(tech,index) in exp.techs" :key="index">
-                        <span class="badge bg-secondary badge-pill p-2">{{tech}}</span>
+                        <span class="badge bg-secondary badge-pill p-2">
+                            {{tech}}                            
+                        </span>
                     </li>
                 </ul>
             </div>
