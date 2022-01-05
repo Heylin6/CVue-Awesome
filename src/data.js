@@ -1,199 +1,135 @@
 const introInfo = {
     name: '劉耀奎(Heylin Liu)',
-    title: 'Full Stack Developer',
-    location: 'Ankara, Turkey',
-    description: '<strong>Turpis, sit amet iaculis dui consectetur at.</strong> Cras sagittis molestie orci. <strong>Suspendisse ut laoreet mi</strong>. Phasellus eu tortor vehicula, blandit enim eu, auctor massa. Nulla ultricies tortor dolor, sit amet suscipit enim <strong>condimentum id</strong>. Etiam eget iaculis tellus. Varius sit amet.',
+    title: 'Java Developer',
+    location: '',
+    description: '',
     image: 'ec.jpg',
 }
 
 //dynamic icon
-const socialMediaInfo = [{
+const socialMediaInfo = [
+    {
         name: 'linkedin',
-        link: 'https://www.linkedin.com/in/coskuncayemre/',
+        link: 'https://www.linkedin.com/in/%E8%80%80%E5%A5%8E-%E5%8A%89-164b0a9b/',
         username: 'heylin6',
-        displayName: 'linkedin/heylin6'
+        displayName: '劉耀奎'
     },
 
     {
         name: 'github',
         link: 'https://github.com/heylin6',
         username: 'heylin6',
-        displayName: 'github/heylin6'
+        displayName: 'heylin6'
     },
     // {
     //     name: 'globe',
-    //     link: 'http://localhost:8080',
-    //     username: 'coskuncayemre',
-    //     displayName: 'emrecoskuncay.com'
+    //     link: '',
+    //     username: '',
+    //     displayName: ''
     // },
     // {
     //     name: 'stack-overflow',
-    //     link: 'http://localhost:8080',
-    //     username: 'coskuncayemre',
-    //     displayName:'stackoverflow.com'
+    //     link: '',
+    //     username: '',
+    //     displayName:''
     // },
 ]
 
 
 const contactInfo = [
     {
-        name: 'envelope',
-        context: 'emrecoskuncay@gmail.com',
+        name: 'email',
+        context: 'ZO5147yexxo0@gmail.com',
         size: '20px',
         style: "font-size:20px;margin-right: 10px;",
-        link: 'mailto:emrecoskuncay@gmail.com'
+        link: 'mailto:ZO5147yexxo0@gmail.com'
     },
-    {
-        name: 'phone-square',
-        context: '+905542694056',
-        size: '23px',
-        style: "font-size:23px;margin-right: 10px;",
-        link: 'tel:+905542694056'
-    },
+    // {
+    //     name: 'phone-square',
+    //     context: '+',
+    //     size: '23px',
+    //     style: "font-size:23px;margin-right: 10px;",
+    //     link: ''
+    // },
 ]
 
 const summaryInfo = 
-    'Hello, It\'s Emre from Ankara,Turkey.I have +2 years of experience with Vue.JS, .NET Core, Docker, Kubernetes with a focus on RestAPIs, MVC and micro-services.My priority is to improve reusability and write generic code. In my social life, I\'m a backpacker.I have visited 22 countries and I am excitedly waiting for this number to increase. In addition, I enjoy talking about new startup ideas.'
-
+    'Hi, 我是耀奎\r\n'+
+    '工業工程系畢業轉行至資訊業至今\r'+
+    '目前持續累積經驗與各種領域的知識中\r'+
+    '正逐步往架構師的路上前進\r'+
+    '每一次的困難或狀況都是珍貴的成長與經歷\r'+
+    '故期許能歷經更多的歷練讓自己更為成長\r';
 
 //desc v-html 
 const experinceInfo = [
     {
-        workAt: 'Aselsan',
-        position: 'Software Engineer',
-        duration: 'Dec 2019 – Present',
-        description: 'Work as a full stack software engineer.',
-        techs: ["Vue.JS", ".NET Core", "Docker", "Kubernetes", "PostgreSQL"]
+        workAt: '',
+        position: 'Java 工程師',
+        duration: '2020.6 – 至今',
+        description: '派遣公司 , 目前參與各專案累積相關知識與技能',
+        techs: ["SpringBoot Gradle","MyBatis","PostgreSQL","EasyUI","LoadRunner","Fortify","SVN","Sourcetree","Gitlab","Swagger"]
     },
     {
-        workAt: 'Aselsan (Intern)',
-        position: 'Software Engineer',
-        duration: 'Jul 2019 - Sep 2019',
-        description: 'Developed desktop application, wrote relevant documents and prepared unit tests.Wrote requirements documents, project definition documents and test procedures.',
-        techs: ["Java","JUnit","SQL"]
+        workAt: '九江資訊',
+        position: 'Java 工程師',
+        duration: '2018.2 - 2019.6',
+        description: '博弈公司 , 參與金流系統開發與金流界接',
+        techs: ["SpringBoot","Hibernate","MySQL","JQuery","SVN"]
     },
     {
-        workAt: 'Innova (Intern)',
-        position: 'Full Stack Developer',
-        duration: 'Jun 2018 – Aug 2018',
-        description: 'Took part in the development team of Public Wi-Fi project.Designed simple welcome page.',
-        techs: ["NodeJS"]
+        workAt: '亞科國際',
+        position: '.NET 工程師',
+        duration: '2017.7 - 2017.12',
+        description: '接案公司',
+        techs: [".Net webform",".Net MVC","Enitiy Framework 4.5","MSSQL","JQuery","Bitbucket"]
     },
     {
-        workAt: 'DüğünSitemiz',
-        position: 'Founder',
-        duration: 'Jun 2016 – Dec 2019',
-        description: 'DüğünSitemiz is a special website project for couples to marry. This project aims to remove couples RSVP difficulties. It is our honor to make better their happiest day of life.',
-        techs: ["Python", "Django", "MongoDB"]
-    },
-    {
-        workAt: 'Estiva Werbeagentur,Austria',
-        position: 'Freelance Web Developer',
-        duration: 'Jan 2018 – Aug 2018',
-        description: '',
-        techs: ["Wordpress", "HTML/CSS"]
-    },
-    {
-        workAt: 'Akman TZOB Hotel,Turkey',
-        position: 'Social Media Manager',
-        duration: 'Dec 2017 – Sep 2018',
-        description: '',
-        techs: ['Adobe Illustrator']
+        workAt: '甫東科技',
+        position: '.NET 工程師',
+        duration: '2016.5 - 2017.5',
+        description: '接案公司',
+        techs: [".Net webform",".Net MVC","Enitiy Framework 4.5","MSSQL","JQuery","TortoiseSVN","Gitlab"]
     }
 ]
 
 const educationInfo = [
     {
-        school: '資訊工業策進會',
-        location: '高雄',
-        title: '',
-        duration: '2015.6 – 2015.12',
-        description: '83期行動應用開發程式班',
-    },
-    {
         school: '中原大學',
         location: '',
         title: '工業工程與系統管理學系',
         duration: '2008.8 – 2013.6',
-        description: '',
+        description: '學士',
     }
 ]
 
 const volunteerInfo = [
     // {
-    //     organisation: 'The English Studio Language School',
-    //     title: 'Student',
-    //     duration: 'July 2018 - Sep 2018',
-    //     description: 'London,UK',
+    //     organisation: '',
+    //     title: '',
+    //     duration: '',
+    //     description: '',
     // },
-    {
-        organisation: 'Hacettepe University,Social Life Organization',
-        title: 'Organization Manager',
-        duration: '2015 – 2021',
-        description: '',
-    }, {
-        organisation: 'Hacettepe University,Community of Contest',
-        title: 'Organization Manager',
-        duration: '2016 – 2018',
-        description: '',
-    },
-    {
-        organisation: 'Hacettepe University ACM',
-        title: 'Member',
-        duration: '2015 – 2020',
-        description: '',
-    }
 ]
 
 
 const certificateInfo = [
     {
-        organisation: 'Red Hat',
-        title: 'Red Hat Certified System Administrator RH124',
-        duration: 'Feb,2021',
-        description: '',
-    },
-    {
-        organisation: 'KOSGEB',
-        title: 'Entrepreneurship Certificate',
-        duration: 'Jun,2019',
+        organisation: '資訊工業策進會',
+        title: '83期行動應用開發程式班 結業證書',
+        duration: '2015.12',
         description: '',
     },
 ]
 
 const projectInfo = [{
-        title: 'Project 1',
-        meta: 'Propulsion Engineer',
-        description: 'Responsibilities included: writing technical reports and other documentation, such as handbooks and bulletins, for use by engineering staff, management, and customers, analyzing project requests and proposals and engineering data to determine feasibility, predictability, cost, and production time of aerospace or aeronautical product.',
-        images: [{
-                thumbnail: 'http://placeholdit.imgix.net/~text?txtsize=33&txt=firstimage&w=150&h=150',
-                original: 'http://placeholdit.imgix.net/~text?txtsize=33&txt=firstimage&w=900&h=900'
-            },
+        title: '',
+        meta: '',
+        description: '',
+        images: [
             {
-                thumbnail: 'http://placeholdit.imgix.net/~text?txtsize=33&txt=secondimage&w=150&h=150',
-                original: 'http://placeholdit.imgix.net/~text?txtsize=33&txt=secondimage&w=900&h=900'
-            },
-            {
-                thumbnail: 'http://placeholdit.imgix.net/~text?txtsize=33&txt=thirdImage&w=150&h=150',
-                original: 'http://placeholdit.imgix.net/~text?txtsize=33&txt=thirdImage&w=900&h=900'
-            }
-        ]
-    },
-    {
-        title: 'Project 1',
-        meta: 'Propulsion Engineer',
-        description: 'Responsibilities included: writing technical reports and other documentation, such as handbooks and bulletins, for use by engineering staff, management, and customers, analyzing project requests and proposals and engineering data to determine feasibility, predictability, cost, and production time of aerospace or aeronautical product.',
-        images: [{
-                thumbnail: 'http://placeholdit.imgix.net/~text?txtsize=33&txt=firstimage&w=150&h=150',
-                original: 'http://placeholdit.imgix.net/~text?txtsize=33&txt=firstimage&w=900&h=900'
-            },
-            {
-                thumbnail: 'http://placeholdit.imgix.net/~text?txtsize=33&txt=secondimage&w=150&h=150',
-                original: 'http://placeholdit.imgix.net/~text?txtsize=33&txt=secondimage&w=900&h=900'
-            },
-            {
-                thumbnail: 'http://placeholdit.imgix.net/~text?txtsize=33&txt=thirdImage&w=150&h=150',
-                original: 'http://placeholdit.imgix.net/~text?txtsize=33&txt=thirdImage&w=900&h=900'
+                thumbnail: '',
+                original: ''
             }
         ]
     }
@@ -202,59 +138,61 @@ const projectInfo = [{
 
 const skillInfo = [
     {
-        name: 'Javascript',
-        rate: 80,
+        name: 'C#',
+        rate: 70,
     },
     {
         name: 'Java',
-        rate: 80,
-    },{
-        name: 'Flutter',
-        rate: 78,
+        rate: 85,
     }, 
     {
-        name: 'VueJS',
-        rate: 90,
-    },
-    {
-        name: 'Docker',
+        name: 'SQL',
         rate: 85,
     },
     {
         name: 'HTML/CSS',
-        rate: 85,
+        rate: 75,
     },
     
 ]
 
-const otherSkillInfo = ['Kubernetes','Nginx','Git','WebGL','MVC','Bootstrap','Jira','TFS']
+const otherSkillInfo = [
+    'Git',
+    'SpringMVC',
+    'Stored Procedures',
+    'Trigger',
+    'VueJS',
+    'JUnit',
+]
 
-const proSkillInfo = ['Leadership','Effective communication','Team player','Strong problem solver',]
+const proSkillInfo = [
+    '系統架構','代碼重構','資料庫設計','單元測試','AWS or Azure'
+]
 
 // 0,1,2,3,4,5
 const languageInfo = [
     {
-        name: 'English',
+        name: '中文',
         rate: 4,
-        level: 'Int',
+        level: '精通',
     }
 ]
 
 
 
 const interestInfo = [
-    {
-        name: 'Swimming',
-        description: "",
-    },
-    {
-        name: 'Entrepreneurship Ideas',
-        description: "",
-    },
-    {
-        name: 'Smart Home Ideas',
-        description: "",
-    },
+    // {
+    //     name: 'Swimming',
+    //     description: "",
+    // },
+    // {
+    //     name: 'Entrepreneurship Ideas',
+    //     description: "",
+    // },
+    // {
+    //     name: 'Smart Home Ideas',
+    //     description: "",
+    // },
 ]
 
 export default {
